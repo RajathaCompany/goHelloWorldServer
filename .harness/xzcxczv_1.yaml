@@ -27,3 +27,8 @@ template:
       runtime:
         type: Cloud
         spec: {}
+    variables:
+      - name: rajatha
+        type: String
+        description: ""
+        value: <+input>
