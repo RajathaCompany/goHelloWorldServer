@@ -1,0 +1,15 @@
+template:
+  name: zsfsadfdsf
+  identifier: zsfsadfdsf
+  versionLabel: "1"
+  type: Step
+  projectIdentifier: RajathaTest2
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Run
+    spec:
+      connectorRef: GCSConnector
+      image: alpine
+      shell: Sh
+      command: echo test
