@@ -10,6 +10,6 @@ template:
     type: Run
     spec:
       connectorRef: GCSConnector
-      image: alpine
+      image: <+input>
       shell: Sh
       command: echo test
