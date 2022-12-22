@@ -1,0 +1,29 @@
+template:
+  name: xzcxczv
+  identifier: xzcxczv
+  versionLabel: "1"
+  type: Stage
+  projectIdentifier: RajathaTest2
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: CI
+    spec:
+      cloneCodebase: true
+      execution:
+        steps:
+          - step:
+              type: Run
+              name: sdfdsaf
+              identifier: sdfdsaf
+              spec:
+                connectorRef: account.JamieDockerConnector
+                image: sfdsaf
+                shell: Sh
+                command: dzxgvdfg
+      platform:
+        os: Linux
+        arch: Amd64
+      runtime:
+        type: Cloud
+        spec: {}
